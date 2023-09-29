@@ -1,0 +1,22 @@
+.text-animate{
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 2s;
+    animation-fill-mode: forwards;
+    max-width: 14px;
+}
+    .text-animate-hover{
+        max-width: 140px;
+        display: inline-block;
+        animation-fill-mode: both;
+        &:hover{
+            animation: rubberBand 1s;
+            color: #ffd700;
+        }
+    }
+    @for $i from 1 through 35 {
+        .text-animate._#{i} {
+           animation-delay: calc(#{$i} / 10s);
+        }
+     }
+     
