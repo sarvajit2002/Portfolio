@@ -1,4 +1,5 @@
 import LogoTitle from '../../assets/images/logo-s.jpeg'
+import Logo1 from '../../assets/images/profilepic.jpg'
 import {Link} from 'react-router-dom'
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters'

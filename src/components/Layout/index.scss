@@ -7,6 +7,7 @@
   .top-tags {
     bottom: auto;
     top: 35px;
+   
   }
   
   .tags {
@@ -40,7 +41,8 @@
   
   .container.contact-page,
   .container.about-page,
-  .container.portfolio-page {
+  .container.portfolio-page,
+  .container.project-page{
     
       h1 {
         font-size: 53px;
@@ -106,7 +108,16 @@
       display: table-cell;
       max-height: 90%;
     }
-  
+   &.project-page{
+    .text-zone{
+      top: 21%;
+    }
+   }
+   &.contact-page{
+    .text-zone{
+      left: 30%;
+    }
+   }
     .text-animate-hover {
       &:hover {
         color: #fff;
@@ -126,7 +137,8 @@
   
       &.contact-page,
       &.about-page,
-      &.portfolio-page {
+      &.portfolio-page,
+      &.project-page {
         .text-zone {
           position: initial;
           transform: none;
@@ -146,7 +158,6 @@
           margin-left: 20px;
           margin-top: 20px;
         }
-  
         .image-box {
           height: 200px;
           max-width: calc(50% - 10px);

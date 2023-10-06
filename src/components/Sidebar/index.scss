@@ -36,7 +36,7 @@
 
         a {
             font-size: 22px;
-            display: #4d4d4e;
+            color: #4d4d4e;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -85,7 +85,7 @@
             }
         }
 
-        a.about-link {
+        a.contact-link {
             &:after {
                 content: 'CONTACT';
             }
@@ -93,6 +93,11 @@
         a.portfolio-link {
             &:after {
               content: 'PORTFOLIO';
+            }
+          }
+        a.project-link {
+            &:after {
+              content: 'PROJECT';
             }
           }
         a.active {
@@ -139,7 +144,6 @@
       position: initial;
       height: auto;
       min-height: auto;
-  
        ul, nav {
         display: none;
        }
@@ -153,6 +157,7 @@
         margin: 0;
         z-index: 2;
         position: fixed;
+        padding: 20px;
   
         &.mobile-show {
           display: block;
@@ -162,6 +167,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          padding: 10px;
         }
   
         a:after {
@@ -169,6 +175,7 @@
           position: initial;
           width: auto;
           margin-left: 10PX;
+          font-size: 36px;
         }
   
         a svg {
@@ -185,3 +192,4 @@
        }
     }
   }
+  
