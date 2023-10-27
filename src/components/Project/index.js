@@ -16,13 +16,13 @@ const Project = () => {
     }, []);
     const projects = [
       {
-        name: 'Dance Class Website',
-        description: 'A Dance Class Website using HTML,CSS,JavaScript.',
-        link: 'https://github.com/sarvajit2002/dance-website.git',
+        name: 'MediTech',
+        description: 'An e-commerce website where user can have video consultation with Doctor,order medicines,book appointment with the Doctor,suggest medicines based on symptom.Created the layout and frontend of the website using React.',
+        link: 'https://github.com/medtech2002/MediTech.git',
       },
       {
         name: 'A Blog Posting Website',
-        description: ' Blog Posting Website using React, Node.js and Express.js.',
+        description: 'Blog Posting Website using React, Node.js and Express.js,where user can post its travel blog.',
         link: 'https://github.com/sarvajit2002/Blog-App.git',
       },
     ];
